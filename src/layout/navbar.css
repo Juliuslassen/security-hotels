@@ -1,0 +1,40 @@
+.navbar-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .navbar-layout nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .navbar-layout a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+  }
+  
+  .navbar-layout a:hover {
+    text-decoration: underline;
+  }
+  
+  #search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #searchId {
+    margin-left: 10px;
+    height: 40px; /* Adjust the height as needed */
+    width: 300px; /* Adjust the width as needed */
+  }
+  
